@@ -1,0 +1,26 @@
+import os
+import requests
+
+from dotenv import load_dotenv
+load_dotenv()
+
+import numpy as np
+import pandas as pd
+
+import onnx
+from xgboost import Classifier
+from sklearn.models import HistGradientRegression, LinearRegression, RandomForest
+from sklearn import metrics
+
+import yfinance as yf
+
+
+
+def main(): 
+    self.run()
+    self.model_run()
+    self.data_load()
+    self.api_load()
+    self.csv_data()
+
+    return main
